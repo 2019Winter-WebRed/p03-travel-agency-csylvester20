@@ -1,0 +1,36 @@
+/*
+* Chloe Sylvester
+* 9 April, 2019
+* The Cook Islands
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    background-color: #FFFFE0 ; 
+} /* to show the background color as a nice peach to contrast the blues in the pictures */
+
+
+h1, h3, h4, h5 {color: skyblue;}
+
+#aerial { width: 300px; height: 300px } /* demonstrates the dimensions of the aerial shot */
+#satellite { float: right; }
+
+#boatrentals { width: 300px; height: 300px } /* shows the dimensions of the boat image*/
+
+#hammock { width: 300px; height: 300px; float: left; } /* the dimensions of the hammock image to match the previous pictures */
+#relax {}
+
+table, td, th { border: 3px solid #DF83B3; } /* this is my line border size and color */
+
+table { border-collapse: collapse; } /* this attribute allows me to not have a border around each cell */
+
+thead, tbody, tfoot { background-color: #FFD8EC; } /* this is the vibrant color of the entire table */
+
+.nofloat { clear: both; }
